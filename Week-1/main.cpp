@@ -1,56 +1,76 @@
 // OUJIROBOTICA Coding 1 Spring 2026 
 // Variables and Logic 
 
-// compile with the Developer Command Prompt 
-// 'cl /EHsc main.cpp' is what you type to compile
-// 'main' or 'main.exe' to run the program. 
+// ------------------------------------------------------------------------------
 
-#include <iostream>
-using namespace std;
+// include LIBRARIES! //
 
-int main() {
-    cout << "Let's learn about variables and logic!\n";
+#include <iostream>                                                 // allows transmission of info to/from console
+using namespace std;                                                // reduce use of std:: when calling libraries
 
-    // declaring and defining variables. 
-    int playerAge = -1;
-    string playerName = "Darth Vader";
-    float happinessPercent = 0.61f; //if percent, # between 0 - 1 
-    bool keepPlaying = true;
 
-    // just like a branch in unreal engine 
-    // if (the rest is true) run this code.
-    if(playerAge == -1) {
-        cout << "How old are you?\n"; 
-        cin >> playerAge;
+// program START! //
 
-        if(playerAge <= 12) {
-            cout << "I'm sorry, this game is for grown ups! \n";
-            return 0; //quit the game early 
+int main() {                                                        // begin program
+
+    cout << "Let's learn about variables and logic!\n";             // send text to console 
+
+    // declaring and define VARIABLES! - default values!
+
+    int playerAge = -1;                                             // create integer variable "playerAge" (sets default)
+    string playerName = "Darth Vader";                              // create string variable "playerName" 
+    float happinessPercent = 0.61f; //if percent, # between 0 - 1   // create float variable "happinessPercent"
+    bool keepPlaying = true;                                        // create boolean variable "keepPlaying" 
+
+
+    // ~ PLAYER AGE ~ //
+
+        // if - if condition true, run this code!
+        if(playerAge == -1) {                                        // if playerAge -1 (should be by true default)
+        cout << "How old are you?\n";                                // send text to console 
+        cin >> playerAge;                                            // set player response as value of playerAge
+
+        
+        // set if at less than/equal to 12.
+        // player's age equal to/less than 12 -> print text, end game
+        if(playerAge <= 12) {                                        // set t/f - if playerAge assigned by player less than / equal to 12, run
+        cout << "I'm sorry, this game is for grown ups! \n";         // send text to console 
+        return 0;                                                    // end program early                         
         } 
-        else { 
-            cout << "Wow," << playerAge << " years, that is a long time! \n"; 
-        } 
+            // else - if previous statement false, continue code
+            // player's age older than 12 -> print text 
+            else { 
+            cout << "Wow," << playerAge << " years, that is a long time! \n"; // send text to console 
+            } 
 
-    } // end of if(playerAge)
+    }                                                                // end of if(playerAge)
 
-    if(playerName == "Darth Vader") { 
-        cout << "is your name " << playerName << "?\n";
-        string input; // create a new string variable to keep track of user input
-        cin >> input; // get the user input
+ 
+    // ~ PLAYER NAME ~ //
+
+       // if - if user's name is Darth Vader...(runs automatically!)
+        if(playerName == "Darth Vader") {                            //if playerName Darth Vader (should be by true default)
+        cout << "is your name " << playerName << "?\n";              // ask player if their name is Darth Vader
+        string input;                                                // create new string variable for user input
+        cin >> input;                                                // get user input
 
         // the OR operator '||' means that if any test evaluates to true, the if statement is true
-        if(input == "yes"|| input == "Yes" || input == "YES") {
-            cout << "Well, that's convenient! \n";
-    } 
-    else{
-        cout << "What is your name?\n";
-        cin >> playerName;
-        
-    } 
+        if(input == "yes"|| input == "Yes" || input == "YES") {     // allow user to say yes 
+            cout << "Well, that's convenient! \n";                  // send text to console 
+        } 
 
-    cout << "Hello " << playerName << ".\n";
+        // else - if user's name is NOT Darth Vader...
+        else{                                                         
+        cout << "What is your name?\n";                            // send text to console 
+        cin >> playerName;                                         // set input to playerName 
+        
+        } 
+
+        cout << "Hello " << playerName << ".\n";                   // displays user's inputtedname 
 
     } // end of if(playerName)
+
+    
 
     bool debug = false; // turn this on to debug the program
 
@@ -73,4 +93,6 @@ if(debug) {
 
 } // end of main ()
 
- 
+// ----------------------------------------------------------------------------------
+
+// just like a branch in unreal engine 
