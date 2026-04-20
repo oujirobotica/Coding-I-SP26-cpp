@@ -1,5 +1,9 @@
-// OUJIROBOTICA Coding 1 Spring 2026 
-// My first C++ Program! :D
+//                _________________________________
+//     /\__/\   / OUJIROBOTICA Coding 1 Spring 2026 
+//  （　´∀｀）＜　My first C++ Program! :D
+//  （　　　） 　＼＿＿＿＿＿________________________
+//  ｜ ｜　|
+// （ ＿_)＿） 
 
 // **note to self, use camelCase for variables
 // **variables declared at the top is best practice.  
@@ -103,5 +107,3 @@ int main() {                                 // start program
 // cout << "Hello World!" << endl;  // cout = console out, endl = end line
 
 // ------------------------------------------------------------------------------
-
-

@@ -1,11 +1,15 @@
-// OUJIROBOTICA Coding I Spring 2026
-// Random Numbers, Switch Statements & While Loops
+//                _________________________________________________
+//     /\__/\   / OUJIROBOTICA Coding 1 Spring 2026  
+//  （　´∀｀）＜　// Random Numbers, Switch Statements & While Loops
+//  （　　　） 　＼＿＿＿＿＿________________________________________
+//  ｜ ｜　|
+// （ ＿_)＿）
 
 // fill out the rest of the code so that it displays the words
 // "Random Numbers" to the console
 // then run it.
 
-#include <iostream>
+#include <iostream>               //
 #include <cstdlib>                //for srand and rand
 #include <ctime>                  //for time 
 
@@ -63,12 +67,10 @@ int main () {
             cout << "It only took you " << totalGuesses << "guesses!\n";
             // break out of loop
             break;
-        }
+            }
     }
 
     // if incorrect guess, keep looping!
-
-
     
 return 0;
 

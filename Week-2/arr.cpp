@@ -1,5 +1,10 @@
-// OUJIROBOTICA Coding 1 Spring 2026
-// Arrays, For Loops, Enums, AND Switch Statements 
+//                _________________________________________________
+//     /\__/\   / OUJIROBOTICA Coding 1 Spring 2026  
+//  （　´∀｀）＜　Arrays, For Loops, Enums, AND Switch Statements 
+//  （　　　） 　＼＿＿＿＿＿________________________________________
+//  ｜ ｜　|
+// （ ＿_)＿）
+
 
 #include <iostream>
 #include <string>

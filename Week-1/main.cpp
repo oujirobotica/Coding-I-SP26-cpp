@@ -1,5 +1,9 @@
-// OUJIROBOTICA Coding 1 Spring 2026 
-// Variables and Logic 
+//                _________________________________
+//     /\__/\   / OUJIROBOTICA Coding 1 Spring 2026  
+//  （　´∀｀）＜　Variables and Logic 
+//  （　　　） 　＼＿＿＿＿＿________________________
+//  ｜ ｜　|
+// （ ＿_)＿）
 
 // ------------------------------------------------------------------------------
 
@@ -60,17 +64,17 @@ int main() {                                                        // begin pro
         } 
 
         // else - if user's name is NOT Darth Vader...
-        else{                                                         
+        else
+        {                                                         
         cout << "What is your name?\n";                            // send text to console 
         cin >> playerName;                                         // set input to playerName 
-        
         } 
 
         cout << "Hello " << playerName << ".\n";                   // displays user's inputtedname 
 
     } // end of if(playerName)
 
-    
+
 
     bool debug = false; // turn this on to debug the program
 
