@@ -1,5 +1,4 @@
 //                ___________________________________
-//     /\__/\   / OUJIROBOTICA Coding 1 Spring 2026  
 //  （　´∀｀）＜　Vectors, Iterations, Algorithms, Erasing
 //  （　　　） 　＼＿＿＿＿＿___________________________
 //  ｜ ｜　|
@@ -9,7 +8,7 @@
 // Functions!!!!!!!!!!!!!!!!!
 
 
-// BLOCK COMMENT //
+/* BLOCK COMMENT */
 
 /*
     Functions
@@ -18,6 +17,7 @@
     Passing by value 
     Passing by reference
 */
+
 
 
 
@@ -36,7 +36,6 @@ using namespace std;
 // the input parameters go in the parenthesis.... this function doesn't have any.
 // then the code goes between {curly braces}!
 // call this function in main by typing 'sayHello();'
-
 void sayHello() {
     cout << "Hello!\n";
 }
@@ -88,7 +87,6 @@ void showVec(vector<string>& vec) {
 
 // create a reference with an ampersand next to the variable type.
 // int& number; or string& name;
-
 // references let us edit the original.
 void addStringToVec(vector<string>& vec) {
     cout << "What name would you like to add?\n";

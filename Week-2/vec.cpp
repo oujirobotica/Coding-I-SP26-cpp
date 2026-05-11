@@ -40,7 +40,7 @@ int main(){
  vector<string> names; 
 
     do {
-        cout << "What would you like to do?\n";
+    cout << "What would you like to do?\n";
         cout << "You can type 'quit', 'push','find', 'remove'.\n";
         
         getline(cin, input);         //get input from player 
